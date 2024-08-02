@@ -1,15 +1,21 @@
-<?php require('partials/head.php') ?>
-<?php require('partials/nav.php') ?>
-<?php require('partials/banner.php') ?>
+<!doctype html>
+<html class="h-full bg-gray-100" lang="en">
+   
+    <?php require ('partials/head.php') ?>
 
-<main>
-    <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
-        <p class="mb-6">
-            <a href="/notes" class="text-blue-500 underline">go back...</a>
-        </p>
+    <?php require ('partials/nav.php') ?>
 
-        <p><?= $note['body'] ?></p>
-    </div>
-</main>
+    <?php require ('partials/banner.php') ?>
+    
+        <main>
+            <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+            <p>Notes go here</p>
+            <ul>
+                
+            </ul>
+            </div>
+        </main>
+        </div>
 
-<?php require('partials/footer.php') ?>
+    </body>
+</html>
