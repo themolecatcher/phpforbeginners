@@ -7,8 +7,6 @@ $db = new Database($config['database']);
 
 $heading = 'Create note';
 
-dd(Validator::email('email@example.com'));
-
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $errors = [];
 

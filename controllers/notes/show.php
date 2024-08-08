@@ -3,6 +3,10 @@
 $config = require('config.php');
 $db = new Database($config['database']);
 
+$a = "https://in.linkedin.com";
+$domain = parse_url($a);
+echo $domain;
+
 $heading = 'Note';
 $currentUserId = 1;
 
