@@ -13,13 +13,10 @@
             <a href="/notes" class="text-blue-500 underline">go back...</a>
         </p>
 
-        <form class="mt-5" method="POST">
-            <input type="hidden" name="_method" value="DELETE">
-            <input type="hidden" name="id" value ="<?= $note['id']?>">
-                 <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
-                    Delete note
-                 </button>
-        </form>  
+        
+        <footer class="mt-5">
+                <a href="/note/edit?id=<? $note['id'] ?>" class="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded">Edit</a>
+        </footer>
     </div>
 </main>
 
